@@ -60,7 +60,6 @@ function addReadButton(pos, card) {
 }
 
 function spawnCards(arr) {
-    let removeButtons = [];
     function spawnCard(bookObj, pos) {
         const card = document.createElement("div");
         
