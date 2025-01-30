@@ -11,12 +11,13 @@ body {
 }
 
 dialog {
-    margin-left: calc(50vh - 100px);
-    margin-top: 30vh;
+    margin-top: calc(50% - 
     width: 200px;
-    height: 190px;
+    height: 200px;
     padding: 10px;
 }
+
+
 
 #dialog-open,
 #dialog-close {

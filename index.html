@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
     <script src="./script.js" defer></script>
 </head>
 <body>
+    <div id="top-container">
+        <button id="dialog-open">Add book</button>
+    </div>
     <div id="cards-container">
     </div>
+
+    <dialog id="dialog">
+        <form>
+            <label for="i_title">Title: </label>
+            <input type="text" id="i_title" value="">
+            <label for="i_author">Author: </label>
+            <input type="text" id="i_author" value="">
+            <label for="i_pages">Pages: </label>
+            <input type="text" id="i_pages" value="">
+            <button type="button" id="submit-button">Submit</button>
+            <button type="button" id="dialog-close">close</button>
+        </form>
+    </dialog>
 </body>
 </html>
